@@ -1,0 +1,161 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.calculator {
+  width: auto;
+  height: auto;
+  margin: 40px 182px;
+  overflow: hidden;
+  float: left;
+  background-color: #4c4f61;
+  border-radius: 10px;
+}
+
+.top {
+  width: 230px;
+  float:left;
+  height: 40px;
+  margin: 15px 15px 10px 15px;
+}
+
+.logo {
+  float: left;
+  margin: 5px auto;
+  width: 49%;
+  height: 50px;
+  font-family: 'Kaushan Script', sans-serif;
+  color: #d3d4db;
+  font-size: .8em;
+}
+
+.solar {
+  float: right;
+  margin: 5px auto;
+  width: 102px;
+  border: 1px solid #363845;
+  height: 32px;
+  box-shadow: 0 0 1em #363845;
+}
+
+.solar span {
+  background-color: #40302f;
+  border: 1px solid black;
+  display: inline-block;
+  width: 15px;
+  height: 30px;
+  float: right;
+}
+
+.display {
+  width: 230px;
+  margin: 15px;
+  clear:both;
+  border: 1px solid #7c8099;
+  height: 60px;
+  background-color: #7c8099;
+  border-radius: 15px;
+}
+
+.screen {
+  width: 85%;
+  margin: 8px auto;
+  border: 1px solid #646466;
+  height: 42px;
+  font-family: 'Play', sans-serif;
+  background-color: #d3d4db;
+  border-radius: 5px;
+}
+
+.command-box {
+  float: left;
+}
+
+.calculation {
+  text-align: right;
+  font-size: 30px;
+  padding-right: 5px;
+  line-height: 42px;
+  vertical-align: middle;
+}
+
+.divide, .multiply, .subtract, .add {
+  display: block;
+  font-size: 10px;
+  color: #999cb0;
+  line-height: 8px;
+  text-align: left;
+  padding: 2px 0 0 4px;
+}
+
+.middle {
+  width: 230px;
+  margin: 5px 15px;
+  clear:both;
+  height: 30px;
+}
+
+.clear-button {
+  float: right;
+  margin: 2px auto;
+  border: 1px solid #6b3885;
+  height: 25px;
+  width: 50px;
+  background: linear-gradient(#b98dcc, #a36cbd);
+  border-radius: 5px;
+  font-family: 'Courgette', sans-serif;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  font-size: 30px;
+}
+
+.buttons {
+  width: 230px;
+  height: 220px;
+  margin: 5px 15px 20px 15px;
+  clear:both;
+  font-family: 'Courgette', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 52px;
+}
+
+.numbers {
+  float: left;
+  width: 169px;
+  float: left;
+}
+
+.button-light {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #52567a;
+  background: linear-gradient(#abafc7, #8b91b3);
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+.button-dark {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #292c2e;
+  background: linear-gradient(#3e414d, #272930);
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+.commands {
+  float: right;
+  width: 55px;
+  font-family: 'Courgette', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 52px;
+}
