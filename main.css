@@ -129,7 +129,7 @@ a {
   float: left;
 }
 
-.button-light {
+.button-number {
   display: inline-block;
   height: 50px;
   width: 50px;
@@ -140,7 +140,7 @@ a {
   font-size: 2em;
 }
 
-.button-dark {
+.button-calc {
   display: inline-block;
   height: 50px;
   width: 50px;
